@@ -1,0 +1,38 @@
+{
+  "roundScores": [
+    {
+      "room": "Library",
+      "Ada": 125,
+      "Ben": 110
+    },
+    {
+      "room": "Conservatory",
+      "Ada": 250,
+      "Ben": 220
+    },
+    {
+      "room": "Workshop",
+      "Ada": 375,
+      "Ben": 330
+    }
+  ],
+  "finalScores": {
+    "Ada": 375,
+    "Ben": 330
+  },
+  "winner": "Ben",
+  "reason": "The Vault was opened",
+  "verified": "Both players completed the three original puzzle rooms; Ben opened the Vault first despite fewer points.",
+  "backend": "Actual packaged default export + real Netlify Blobs SDK + local atomic HTTP contract fixture (not hosted Netlify)",
+  "fixtureRequests": {
+    "reads": 95,
+    "writes": 54,
+    "conflicts": 2
+  },
+  "consistency": "strong (only uncached endpoint reachable in fixture)",
+  "conditionalWrites": "onlyIfNew and onlyIfMatch verified; stale writes rejected",
+  "productionBuild": "Vite build passed",
+  "hostedDeployment": "Not deployed to a live Netlify account",
+  "testedAt": "2026-10-28T16:16:37.455Z",
+  "browserSmokeTest": "Production frontend create room, polling receives second player, start match, mansion interface preserved."
+}

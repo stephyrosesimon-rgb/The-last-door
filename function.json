@@ -1,0 +1,9 @@
+{
+  "name": "game",
+  "entry": "netlify/functions/game.ts",
+  "runtime": "nodejs22.x",
+  "packager": "@netlify/zip-it-and-ship-it 16.6.0",
+  "bytes": 370429,
+  "sha256": "d544c7cc36edc9cd158fc7d1c563237078f48d367e47b7a83b6cfb7f8e4c5933",
+  "verified": "Actual packaged default export plus real SDK and atomic local HTTP fixture. Not a hosted deployment."
+}
